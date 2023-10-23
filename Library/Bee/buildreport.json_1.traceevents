@@ -1,0 +1,611 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677845146526942, "dur": 331525, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845146529716, "dur": 47125, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845146577212, "dur": 271140, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845146848371, "dur": 10094, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845155697222, "dur": 1801099, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845155697464, "dur": 13190, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845155710662, "dur": 99744, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845155810522, "dur": 470693, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845156281219, "dur": 1204245, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845157485467, "dur": 12849, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845157499206, "dur": 67, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677845156101628, "dur": 170478, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677845156103036, "dur": 53170, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677845156245046, "dur": 7636, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677845156252686, "dur": 19411, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677845156253553, "dur": 12599, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677845156277419, "dur": 1110, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677845156276652, "dur": 1896, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845157499355, "dur": 207, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677845156363936, "dur":2523, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845156366473, "dur":146, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677845156366672, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677845156366708, "dur":1209, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677845156368012, "dur":4476, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845156372488, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157452980, "dur":324, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453304, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453313, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453316, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453325, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453327, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453333, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453335, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453341, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453343, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453349, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453352, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453358, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453360, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453367, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453369, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453375, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453377, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453384, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453385, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453391, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453393, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453399, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453401, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453408, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453423, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157453438, "dur":4286, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677845156368314, "dur":4337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156372651, "dur":12471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156385123, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677845156385847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156402527, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677845156407101, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156407348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156407357, "dur":147668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156555133, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156555245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156555256, "dur":46767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156602141, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156602249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156602261, "dur":131145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156733523, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156733622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156733629, "dur":25899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156759619, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156759750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156759782, "dur":26568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156786447, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156786543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156786552, "dur":33438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156820089, "dur":122301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156942597, "dur":97, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156942705, "dur":15992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156958785, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845156958866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845156958887, "dur":162633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845157121612, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845157124582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845157124597, "dur":61228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845157185906, "dur":232984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845157418895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677845157418903, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677845157421797, "dur":31264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156368014, "dur":4526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156372546, "dur":12523, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156385086, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677845156385088, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156385297, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677845156385320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156388609, "dur":5652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1677845156394266, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1677845156394487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156396388, "dur":4884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1677845156401416, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677845156401804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156401819, "dur":6325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677845156408311, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677845156408482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156408491, "dur":100666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677845156509264, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156509525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156509534, "dur":36686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156546365, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156546492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156546507, "dur":28339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156574958, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156575065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156575076, "dur":58770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156633952, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156634052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156634063, "dur":61364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156695531, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156695836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156695849, "dur":64072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156760025, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156760145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156760152, "dur":35563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156795794, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156795884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156795891, "dur":46289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156842272, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156843440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156843451, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156846527, "dur":66573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156913105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156913114, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156917456, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845156917549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845156917866, "dur":87163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845157005116, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845157005202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845157005212, "dur":253779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677845157259094, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1677845157259184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845157259192, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1677845157264968, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1677845157265064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677845157265072, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1677845157269396, "dur":183571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156369849, "dur":3149, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156372998, "dur":12090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156385089, "dur":756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677845156385849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156404111, "dur":7029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677845156411290, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156411433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156411984, "dur":97047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156509148, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156509264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156509273, "dur":70405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156579786, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156579895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156579906, "dur":71350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156651341, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156651422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156651430, "dur":31523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156683046, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156683136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156683146, "dur":21776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156705036, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156705154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156705161, "dur":28228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156733487, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156733585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156733594, "dur":26121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156759798, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156759892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156759899, "dur":149284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156909293, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845156909387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845156909398, "dur":119992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845157029473, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845157029562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845157029572, "dur":59638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845157089306, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845157089397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845157089407, "dur":145015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677845157234516, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":3, "ts":1677845157235220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845157235228, "dur":7703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":3, "ts":1677845157243146, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/aboutsystem.html" }}
+,{ "pid":12345, "tid":3, "ts":1677845157243296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845157243305, "dur":8792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/aboutsystem.html" }}
+,{ "pid":12345, "tid":3, "ts":1677845157252179, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677845157252269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677845157252275, "dur":18872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677845157271229, "dur":181751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156368272, "dur":4333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156372606, "dur":12575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156385181, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677845156386075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156417136, "dur":93539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677845156510791, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156511085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156511099, "dur":158412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156669601, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156669687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156669698, "dur":59600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156729395, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156729505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156733352, "dur":134766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156868209, "dur":68700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156936913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156936921, "dur":7461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156944465, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845156944547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845156944555, "dur":106801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845157051444, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845157051530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845157051539, "dur":154174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677845157205794, "dur":1614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/.jpg" }}
+,{ "pid":12345, "tid":4, "ts":1677845157207416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845157209005, "dur":23418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/.jpg" }}
+,{ "pid":12345, "tid":4, "ts":1677845157233369, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":4, "ts":1677845157233668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845157233679, "dur":12733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":4, "ts":1677845157246660, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/1.png" }}
+,{ "pid":12345, "tid":4, "ts":1677845157247469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845157247478, "dur":8563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/1.png" }}
+,{ "pid":12345, "tid":4, "ts":1677845157256282, "dur":1073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1677845157257361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845157257371, "dur":4717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1677845157262215, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1677845157262324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677845157262331, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1677845157266761, "dur":186205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156368486, "dur":4213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156372700, "dur":12378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156385086, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1677845156385683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156401522, "dur":4486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1677845156406165, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156406420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156406877, "dur":100534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156507532, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156507652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156507661, "dur":45328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156553130, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156553260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156553271, "dur":126422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156679783, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156679874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156679886, "dur":24748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156704725, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156704809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156704819, "dur":55060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156759972, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156760061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156760068, "dur":34791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156794963, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156795047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156795055, "dur":56100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156851253, "dur":39927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156891203, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156891215, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156894411, "dur":1128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156895544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156895555, "dur":7907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156903550, "dur":1091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156904647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156904658, "dur":8108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156912859, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845156912951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845156912961, "dur":315639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677845157228701, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/.png" }}
+,{ "pid":12345, "tid":5, "ts":1677845157229274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845157229285, "dur":14000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/.png" }}
+,{ "pid":12345, "tid":5, "ts":1677845157243537, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/aboutdevs.html" }}
+,{ "pid":12345, "tid":5, "ts":1677845157243689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845157243697, "dur":8771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/aboutdevs.html" }}
+,{ "pid":12345, "tid":5, "ts":1677845157252548, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1677845157252630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845157252636, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1677845157257562, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1677845157257641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845157257647, "dur":6032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1677845157263778, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1677845157263873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677845157263881, "dur":5147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1677845157269128, "dur":183836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156368647, "dur":4103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156372750, "dur":12334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156385086, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1677845156386091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156419127, "dur":89788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1677845156509021, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156509123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156509132, "dur":30388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156539629, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156540055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156540068, "dur":27462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156567632, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156567737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156567786, "dur":190835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156758721, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156758823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156758831, "dur":33891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156792803, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156792885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156792896, "dur":53530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156846529, "dur":5276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156851809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156851820, "dur":15259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156867170, "dur":5205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156872381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156872394, "dur":5742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156878221, "dur":4936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156883166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156883177, "dur":9223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156892511, "dur":36409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156928926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156928938, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156934238, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845156934332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845156934341, "dur":223301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845157157734, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845157157824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677845157157834, "dur":284927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677845157442836, "dur":10155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156368811, "dur":3956, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156372768, "dur":12337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156385106, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1677845156385458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156390930, "dur":4784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1677845156395871, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1677845156396155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156396444, "dur":5010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1677845156401603, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1677845156401884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156401896, "dur":5659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1677845156407775, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1677845156408025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156408033, "dur":105471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1677845156513622, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156513746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156513758, "dur":38102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156551975, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156552076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156552725, "dur":98250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156651064, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156651150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156651158, "dur":36207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156687448, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156687528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156687538, "dur":47490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156735118, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156735207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156735215, "dur":42383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156777693, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156777780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156777800, "dur":51463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156829348, "dur":109128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156938482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156938490, "dur":5966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156944537, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845156944619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845156944627, "dur":71265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845157015984, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845157016091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677845157016112, "dur":261689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677845157277869, "dur":175121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156369023, "dur":3789, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156372812, "dur":12269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156385086, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1677845156385502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156398738, "dur":4450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1677845156403419, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1677845156403685, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156403704, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1677845156408442, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1677845156408729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156410291, "dur":112995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1677845156524097, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156524224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156524235, "dur":36467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156560811, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156560913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156560925, "dur":74189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156635241, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156635357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156635366, "dur":54613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156690106, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156690203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156690212, "dur":22009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156712316, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156712404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156712414, "dur":32873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156745362, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156745436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156745446, "dur":39886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156785424, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156785531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845156785542, "dur":56571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845156842206, "dur":299386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845157141600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845157141613, "dur":7690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845157149386, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845157149471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677845157149481, "dur":240150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677845157389724, "dur":63263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156369190, "dur":3655, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156372845, "dur":12242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156385088, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1677845156385567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156399402, "dur":4599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1677845156404149, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1677845156404424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156404436, "dur":102629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1677845156507248, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156507445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156507650, "dur":27210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156534957, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156535053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156535064, "dur":67087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156602258, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156602358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156602368, "dur":72660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156675136, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156675236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156675246, "dur":50506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156725831, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156725906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156725916, "dur":54260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156780264, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156780354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156780364, "dur":56062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156836515, "dur":96127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156932656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156932665, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156936332, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845156936411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845156936418, "dur":102178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845157038874, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845157038967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157038977, "dur":173026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677845157212127, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":9, "ts":1677845157212424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157212605, "dur":16376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":9, "ts":1677845157229182, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ (2).png" }}
+,{ "pid":12345, "tid":9, "ts":1677845157229596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157229605, "dur":10258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ (2).png" }}
+,{ "pid":12345, "tid":9, "ts":1677845157240229, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1677845157240471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157240481, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1677845157242843, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/dbase.bytes" }}
+,{ "pid":12345, "tid":9, "ts":1677845157242974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157242984, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/dbase.bytes" }}
+,{ "pid":12345, "tid":9, "ts":1677845157246645, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/2.png" }}
+,{ "pid":12345, "tid":9, "ts":1677845157247430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157247441, "dur":7829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/2.png" }}
+,{ "pid":12345, "tid":9, "ts":1677845157255671, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1677845157256171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157256180, "dur":4296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1677845157260578, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677845157260682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157260690, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677845157265975, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1677845157266250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677845157266257, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1677845157269992, "dur":182973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156369374, "dur":3486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156372861, "dur":12241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156385103, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1677845156385857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156407854, "dur":100245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1677845156508438, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156508573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156508582, "dur":60456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156569144, "dur":179359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156748511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156748526, "dur":6304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156754936, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156755046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156755057, "dur":75697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156830835, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156830919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156830929, "dur":90837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156921843, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845156921918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845156921928, "dur":134295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845157056314, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845157056403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157056414, "dur":148353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845157204851, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845157204932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157208084, "dur":11649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677845157219820, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":10, "ts":1677845157220102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157220113, "dur":14539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/ .png" }}
+,{ "pid":12345, "tid":10, "ts":1677845157235272, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/.png" }}
+,{ "pid":12345, "tid":10, "ts":1677845157235685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157235915, "dur":8804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/.png" }}
+,{ "pid":12345, "tid":10, "ts":1677845157245036, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/3.png" }}
+,{ "pid":12345, "tid":10, "ts":1677845157245783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157245793, "dur":9479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/StreamingAssets/3.png" }}
+,{ "pid":12345, "tid":10, "ts":1677845157255814, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1677845157256176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157256184, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1677845157260872, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1677845157260962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157260969, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1677845157265804, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1677845157265891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677845157265897, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1677845157269857, "dur":183139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156369568, "dur":3343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156372911, "dur":12192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156385104, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1677845156386036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156414808, "dur":93957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1677845156508880, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156508991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156509000, "dur":54455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156563558, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156563663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156563674, "dur":85659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156649427, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156649514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156649525, "dur":56406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156706012, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156706095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156706103, "dur":50144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156756346, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156758237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156758251, "dur":34862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156793192, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156793274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156793281, "dur":169952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156963328, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845156963423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845156963432, "dur":53680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845157017208, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845157017298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845157017306, "dur":230556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677845157247953, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1677845157248041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845157248174, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1677845157251952, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1677845157252031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845157252040, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1677845157255372, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1677845157255453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845157255462, "dur":5034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1677845157260592, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1677845157260680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845157260688, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1677845157265108, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1677845157265217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677845157265224, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1677845157269884, "dur":183121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156369713, "dur":3246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156372959, "dur":12148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156385108, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677845156385492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156395557, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677845156400137, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677845156400408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156400420, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677845156405613, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156405935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156406621, "dur":101470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156508265, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156508387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156508397, "dur":61641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156570169, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156570281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156570394, "dur":43067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156613567, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156613672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156613683, "dur":38787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156652570, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156652648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156652655, "dur":35687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156688421, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156688500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156688507, "dur":69885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156758494, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156758584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156758591, "dur":53137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156811830, "dur":64371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156876208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156876220, "dur":10853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156887157, "dur":1302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156888473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156888483, "dur":9965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156898547, "dur":34060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156932614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156932626, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156935587, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845156935676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845156935685, "dur":209074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845157144846, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845157144933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677845157144943, "dur":307929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/krow_/OneDrive/Desktop/GASLOL/GasFinale_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677845157452932, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1677845157452933, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677845157465050, "dur":9676, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677845157499628, "dur": 1169, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677845157499184, "dur": 1639, "ph": "X", "name": "Write chrome-trace events", "args": {} },
